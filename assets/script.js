@@ -18,7 +18,7 @@ $(document).ready(function () {
         var timeNow = moment().hour();
         console.log(timeNow);
 
-        // loop over time blocks
+        // for the present, past and future
         $(".time-block").each(function () {
             var blockTime = parseInt($(this).attr("id").split("hour")[1]);
             console.log(blockTime);
@@ -43,7 +43,7 @@ $(document).ready(function () {
         })
     }
 
-    // Get item from local storage if any
+    // pull items from storage
     $("#hour8 .description").val(localStorage.getItem("hour8"));
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hour10"));
