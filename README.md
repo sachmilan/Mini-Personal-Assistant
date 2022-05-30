@@ -12,7 +12,6 @@
 
 ## Table of Contents
 
-installation
 -installation
 -Download and install Git bash
 -Open your Git bash application
@@ -20,7 +19,7 @@ installation
 -By using cd command go into Mini personal assistant
 -Enter git clone https://github.com/sachmilan/Mini-Personal-Assistant.git
 
-##Credits
+## Credits
 Sachmilan Singh, David Johnson(tutor), Kevin Powel (youtube videos), mlimgonz(looked at her code for guidance).
 
 ## Usage
