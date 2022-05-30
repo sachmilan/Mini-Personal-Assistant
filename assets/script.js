@@ -20,16 +20,16 @@ $(document).ready(function () {
 
         // for the present, past and future
         $(".time-block").each(function () {
-            var blockTime = parseInt($(this).attr("id").split("hour")[1]);
+            var time = parseInt($(this).attr("id").split("hour")[1]);
             console.log(blockTime);
 
             // To check the time and add the classes for background indicators
-            if (blockTime < timeNow) {
+            if (time < timeNow) {
                 $(this).removeClass("future");
                 $(this).removeClass("present");
                 $(this).addClass("past");
             }
-            else if (blockTime === timeNow) {
+            else if (time === timeNow) {
                 $(this).removeClass("past");
                 $(this).removeClass("future");
                 $(this).addClass("present");
